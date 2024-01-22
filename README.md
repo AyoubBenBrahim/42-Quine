@@ -1,10 +1,10 @@
-##self-replicating programs
+## self-replicating programs
 
-#####Making a spoon using only a [spoon](https://youtu.be/OSfUUqNkrOQ)
+##### Making a spoon using only a [spoon](https://youtu.be/OSfUUqNkrOQ)
 
 ![alt text](./spoon.png "spoon")
 
-####Requirements:
+#### Requirements:
 
 This project invites you to confront the principle of self-reproduction and the problems that derive from it. It is a perfect introduction to more complex projects, particularly malware projects.
 
@@ -14,7 +14,7 @@ A quine is a program whose output is equal to its source code.
 
 This project is done using C.
 
-####Testing quines
+#### Testing quines
 
 javac -d jv *.java
 
@@ -32,7 +32,7 @@ diff test.js <(node test.js)
 
 gcc Grace.c -o Grace && ./Grace && diff Grace.c Grace_kid.c
 
-to read:
+#### to read:
 
 https://en.wikipedia.org/wiki/Quine_(computing)
 
